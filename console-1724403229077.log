@@ -1,0 +1,179 @@
+var a ;
+undefined
+typeof a;
+'undefined'
+a=10;
+10
+typeof a;
+'number'
+a=1000.20;
+1000.2
+typeof a;
+'number'
+a=54368754376587465874876548765876587463;
+5.436875437658747e+37
+a = 7549835789473598749679548769547697549867n;
+7549835789473598749679548769547697549867n
+typeof a;
+'bigint'
+1000n + 4444n;
+5444n
+8888n + 4343;
+VM358:1 Uncaught TypeError: Cannot mix BigInt and other types, use explicit conversions
+    at <anonymous>:1:7
+(anonymous) @ VM358:1
+a=548775848756478657486845658764875648568743n;
+548775848756478657486845658764875648568743n
+a=BigInt("576487563487658743687567483");
+576487563487658743687567483n
+var txt = "56348756483767586438758743";
+undefined
+BigInt(txt);
+56348756483767586438758743n
+a=1000;
+1000
+a  = a + undefined;
+NaN
+a;
+NaN
+typeof a;
+'number'
+// Coercion - Implict casting
+undefined
+100 + undefined;
+NaN
+"10" + 20;
+'1020'
+typeof NaN;
+'number'
+a= 10/0;
+Infinity
+typeof a;
+'number'
+isFinite(a);
+false
+isFinite(a)?a:"Some thing went wrong";
+'Some thing went wrong'
+a=10 + undefined;
+NaN
+isNaN(a);
+true
+isNaN(a)?"Something went Wrong ":a;
+'Something went Wrong '
+a=1000;
+1000
+isNaN(a)?"Something went Wrong ":a;
+1000
+var t ;
+undefined
+t.toUpperCase();
+VM1173:1 Uncaught TypeError: Cannot read properties of undefined (reading 'toUpperCase')
+    at <anonymous>:1:3
+(anonymous) @ VM1173:1
+parseInt("1990");
+1990
+"10" + 20;
+'1020'
+parseInt("10") + 20;
+30
+parseInt("10.3") + 20;
+30
+parseFloat("10.3") + 20;
+30.3
+typeof isNaN;
+'function'
+typeof parseInt;
+
+'function'
+Number("100") + 20;
+120
+Number("100.88") + 20;
+120.88
+typeof Number;
+'function'
+var r = "Amit";
+undefined
+typeof a;
+'number'
+typeof r;
+'string'
+r = 'Amit';
+'Amit'
+r='A';
+'A'
+typeof r;
+'string'
+r = `gjfgnfkjghkjgjkfk
+ghdjkf
+jghfdjk`;
+'gjfgnfkjghkjgjkfk\nghdjkf\njghfdjk'
+console.log(r);
+VM1694:1 gjfgnfkjghkjgjkfk
+ghdjkf
+jghfdjk
+undefined
+a= "Let's do it ";
+"Let's do it "
+var x = 10;
+undefined
+var  y = 20;
+undefined
+console.log("X is "+x+" Y is "+y);
+VM1919:1 X is 10 Y is 20
+undefined
+`X is ${x} Y is ${y}`
+'X is 10 Y is 20'
+x = 2000;
+2000
+`X is ${x} Y is ${y}`
+'X is 2000 Y is 20'
+var e = Symbol();
+undefined
+e;
+Symbol()
+var t = Symbol();
+undefined
+t;
+Symbol()
+e ==t;
+false
+Symbol() == Symbol();
+false
+var a = 10;
+undefined
+var arr = [10,20,30,40,50];
+undefined
+arr.push(1000);
+6
+arr;
+(6) [10, 20, 30, 40, 50, 1000]
+arr.length;
+6
+typeof arr;
+'object'
+arr instanceof Array;
+true
+typeof Array;
+'function'
+arr;
+(6) [10, 20, 30, 40, 50, 1000]
+var t = arr;
+undefined
+t[0] = 5555;
+5555
+t;
+(6) [5555, 20, 30, 40, 50, 1000]
+arr;
+(6) [5555, 20, 30, 40, 50, 1000]
+arr =  null;
+null
+arr;
+null
+typeof undefinedl
+'undefined'
+typeof undefined;
+'undefined'
+typeof null;
+'object'
+t;
+(6) [5555, 20, 30, 40, 50, 1000]
