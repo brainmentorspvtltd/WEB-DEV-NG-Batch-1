@@ -1,0 +1,50 @@
+var a;
+undefined
+a;
+undefined
+typeof a;
+'undefined'
+a=10;
+10
+a;
+10
+typeof a;
+'number'
+a='Amit';
+'Amit'
+typeof a;
+'string'
+a = true;
+true
+typeof a;
+'boolean'
+typeof (a);
+'boolean'
+typeof ((a));
+'boolean'
+typeof ((2+3)*5);
+'number'
+a = 1;
+1
+a=124235345345345;
+124235345345345
+a=10.222;
+10.222
+typeof a;
+'number'
+a=Number.MAX_SAFE_INTEGER;
+9007199254740991
+++a;
+9007199254740992
+++a;
+9007199254740992
+++a;
+9007199254740992
+++a;
+9007199254740992
+a=75984578945769874596854986795476894578967894565984;
+7.598457894576987e+49
+a=4964567456974569875896745n;
+4964567456974569875896745n
+typeof a;
+'bigint'
